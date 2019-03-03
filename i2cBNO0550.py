@@ -22,13 +22,13 @@ class BNO0550:
 
 
 	def log(self):
-		self.ACCEL_f.write(self.sensor.accelerometer + ",")
-		self.GYRO_f.write(self.sensor.gyroscope + ",")
-		self.MAG_f.write(self.sensor.magnetometer + ",")
-		self.EULERA_f.write(self.sensor.euler + ",")
-		self.QUATER_f.write(self.sensor.quaternion + ",")
-		self.LINACCEL_f.write(self.sensor.linear_acceleration + ",")
-		self.GRAV_f.write(self.sensor.gravity + ",")
+		self.ACCEL_f.write(str(self.sensor.accelerometer + ","))
+		self.GYRO_f.write(str(self.sensor.gyroscope + ","))
+		self.MAG_f.write(str(self.sensor.magnetometer + ",")
+		self.EULERA_f.write(str(self.sensor.euler + ","))
+		self.QUATER_f.write(str(self.sensor.quaternion + ","))
+		self.LINACCEL_f.write(str(self.sensor.linear_acceleration + ","))
+		self.GRAV_f.write(str(self.sensor.gravity + ","))
 
 		return True
 
