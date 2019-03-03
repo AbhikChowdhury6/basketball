@@ -24,7 +24,7 @@ bno0550 = BNO0550(i2c, DATA_PATH)
 bno0551 = BNO0551(i2c, DATA_PATH)
 
 
-print time.strftime('%d-%m-%Y-%H-%M-%S', time.localtime())
+print (time.strftime('%d-%m-%Y-%H-%M-%S', time.localtime()))
 divider = 1
 second = 0
 starttime=time.time()

@@ -39,9 +39,9 @@ Z = [z / 16384.0 for z in Zu]
 
 
 
-print "number of data poits X: " + str(len(X))
-print "number of data poits Y: " + str(len(Y))
-print "number of data poits Z: " + str(len(Z))
+print ("number of data poits X: " + str(len(X)))
+print ("number of data poits Y: " + str(len(Y)))
+print ("number of data poits Z: " + str(len(Z)))
 
 
 #print s
