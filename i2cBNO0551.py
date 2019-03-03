@@ -24,7 +24,7 @@ class BNO0551:
 	def log(self):
 		self.ACCEL_f.write(str(self.sensor.accelerometer + ","))
 		self.GYRO_f.write(str(self.sensor.gyroscope + ","))
-		self.MAG_f.write(str(self.sensor.magnetometer + ",")
+		self.MAG_f.write(str(self.sensor.magnetometer + ","))
 		self.EULERA_f.write(str(self.sensor.euler + ","))
 		self.QUATER_f.write(str(self.sensor.quaternion + ","))
 		self.LINACCEL_f.write(str(self.sensor.linear_acceleration + ","))
